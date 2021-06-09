@@ -1,12 +1,15 @@
-puts "                          ->->->->->->->->->->->-BIENVENIDO A BAELYAHTZEE-<-<-<-<-<-<-<-<-<-<-<-"
+require "colorize"
+puts "                          ->->->->->->->->->->->-BIENVENIDO A BAELYAHTZEE-<-<-<-<-<-<-<-<-<-<-<-".yellow
 print "Ingresa tu nombre: "
 
 nombre = gets
 
 nombre = nombre.chomp
-system("clear")
 
-puts "                                                     【HOLA #{nombre.upcase}】"
+system("clear")
+require "colorize"
+
+puts "                                                     【HOLA #{nombre.upcase}】".yellow
 
 puts "                                               Reglas generales del juego
                                                Combinaciones y puntuación
@@ -61,7 +64,7 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}"
+  puts "                                                        #{[dado.roll]}".yellow
 end.to_a
 
 print "                                         preciona ENTER para lanzar el dado \n"
@@ -77,7 +80,7 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}"
+  puts "                                                        #{[dado.roll]}".yellow
 end.to_a
 
 print "                                         preciona ENTER para lanzar el dado \n"
@@ -93,5 +96,5 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}"
+  puts "                                                        #{[dado.roll]}".yellow
 end.to_a
