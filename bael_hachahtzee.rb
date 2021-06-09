@@ -23,6 +23,19 @@ puts "                                               Reglas generales del juego
                      de cinco, se obtienen quince puntos. Si la suma de los puntos obtenidos en esta sección es
                                  mayor de 63, se obtiene una bonificación de 35 puntos extra.
 
+                                 Ejemplo de hoja de puntuaciones del juego original Yahtzee
+                         Cada jugador tiene un máximo de tres (3) lanzamientos en cada jugada, pudiendo
+                   “congelar” cualquiera de los dados que desee y hacer el siguiente lanzamiento solo con los
+                    dados “no congelados”, a fin de poder intentar obtener alguna combinación que le
+                   convenga, hasta consumir sus 3 lanzamientos. Una vez obtenida la puntuación definitiva,
+                          procederá a escoger la combinación de la tabla donde desea colocar dicha jugada,
+                 obteniendo la puntuación correspondiente según las reglas anteriormente descritas. Luego,
+                    le corresponde al siguiente jugador consumir su turno, repitiendo la misma dinámica hasta
+                     que todos los jugadores hayan llenado todas sus combinaciones en la tabla de
+                    puntuaciones (y ya no tengan espacio donde anotar jugadas en la tabla). Es este el
+                  momento donde concluye el juego y gana el jugador con la mayor puntuación, resultado
+                          de sumar todos los puntos de cada combinación,así como los bonos obtenidos.
+                          
                        En la sección inferior, las combinaciones posibles son más variadas e incluyen:
 
                  ➤ 1: 3 de una clase, al obtener tres dados iguales. Se suma la puntuación de todos los dados.
