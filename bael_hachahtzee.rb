@@ -1,5 +1,5 @@
 require "colorize"
-puts "                          ->->->->->->->->->->->-BIENVENIDO A BAELYAHTZEE-<-<-<-<-<-<-<-<-<-<-<-".yellow
+puts "                          ->->->->->->->->->->->-BIENVENIDO A BAELYAHTZEE-<-<-<-<-<-<-<-<-<-<-<-".light_green
 print "Ingresa tu nombre: "
 
 nombre = gets
@@ -9,7 +9,7 @@ nombre = nombre.chomp
 system("clear")
 require "colorize"
 
-puts "                                                     【HOLA #{nombre.upcase}】".yellow
+puts "                                                     【HOLA #{nombre.upcase}】".light_green
 
 puts "                                               Reglas generales del juego
                                                Combinaciones y puntuación
@@ -35,7 +35,7 @@ puts "                                               Reglas generales del juego
                     puntuaciones (y ya no tengan espacio donde anotar jugadas en la tabla). Es este el
                   momento donde concluye el juego y gana el jugador con la mayor puntuación, resultado
                           de sumar todos los puntos de cada combinación,así como los bonos obtenidos.
-                          
+
                        En la sección inferior, las combinaciones posibles son más variadas e incluyen:
 
                  ➤ 1: 3 de una clase, al obtener tres dados iguales. Se suma la puntuación de todos los dados.
@@ -77,7 +77,7 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".yellow
+  puts "                                                        #{[dado.roll]}".light_yellow
 end.to_a
 
 print "                                         preciona ENTER para lanzar el dado \n"
@@ -93,7 +93,7 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".yellow
+  puts "                                                        #{[dado.roll]}".light_yellow
 end.to_a
 
 print "                                         preciona ENTER para lanzar el dado \n"
@@ -109,5 +109,5 @@ end
 
 dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
 dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".yellow
+  puts "                                                        #{[dado.roll]}".light_yellow
 end.to_a
