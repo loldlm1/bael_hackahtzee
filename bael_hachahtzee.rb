@@ -73,13 +73,14 @@ if letra = "".to_i
     def roll
       1 + rand(6)
     end
+
+    dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
+    dados.each do |dado|
+      puts "                                                        #{[dado.roll]}".light_yellow
+    end.to_a
   end
 end
 
-dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
-dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".light_yellow
-end.to_a
 
 print "                                 Preciona La Cualquier Letra Para Lanzar Los Dados : "
 letra = gets.chomp.to_i
@@ -89,13 +90,14 @@ if letra = "".to_i
     def roll
       1 + rand(6)
     end
+
+    dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
+    dados.each do |dado|
+      puts "                                                        #{[dado.roll]}".light_yellow
+    end.to_a
   end
 end
 
-dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
-dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".light_yellow
-end.to_a
 
 print "                                 Preciona La Cualquier Letra Para Lanzar Los Dados : "
 letra = gets.chomp.to_i
@@ -105,10 +107,12 @@ if letra = "".to_i
     def roll
       1 + rand(6)
     end
+
+    dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
+    dados.each do |dado|
+      puts "                                                        #{[dado.roll]}".light_yellow
+    end.to_a
   end
 end
 
-dados = [Dado.new, Dado.new, Dado.new, Dado.new, Dado.new]
-dados.each do |dado|
-  puts "                                                        #{[dado.roll]}".light_yellow
-end.to_a
+
